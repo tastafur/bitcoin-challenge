@@ -366,7 +366,7 @@
 
 .link--urpi:hover::before,
 .link--urpi:hover::after {
-	color: #fff;
+	color: #4cbfe4;
 	-webkit-transition: color 0.5s, -webkit-transform 0.5s;
 	transition: color 0.5s, transform 0.5s;
 }
