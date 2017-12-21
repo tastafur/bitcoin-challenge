@@ -179,14 +179,14 @@
             const blockchainStock = [45, 24, 35, 31, 40, 38, 11];
             const blockchainStockChossen = blockchainStock[Math.floor(Math.random()*blockchainStock.length)];
             let profitTemp;
-            document.getElementById("blockchainStockChossenValue").textContent = blockchainStockChossen;
-            const result =
+            const blockchainStockProfict =
               (profitTemp = blockchainStock.filter(element => element > blockchainStockChossen).reduce((a, b) =>
               (b - blockchainStockChossen > a ? b - blockchainStockChossen : a), 0))
                 !== 0 ? profitTemp : -1;
-            document.getElementById("blockchainProfitValue").innerText = result;
-            document.getElementById("blockchainProfitValue").dataset.letters = result;
-            console.log('result ->', result);
+
+            document.getElementById("blockchainStockChossenValue").textContent = blockchainStockChossen;
+            document.getElementById("blockchainProfitValue").innerText = blockchainStockProfict;
+            document.getElementById("blockchainProfitValue").dataset.letters = blockchainStockProfict;
         </script>
     </body>
 </html>
