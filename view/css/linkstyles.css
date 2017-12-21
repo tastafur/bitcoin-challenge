@@ -7,6 +7,7 @@
 	line-height: 1;
 	color: #9e9ba4;
 	display: inline-block;
+	cursor: pointer;
 }
 
 /* Kukuri */
@@ -637,7 +638,7 @@
 }
 
 .link--asiri .shape--fill {
-	fill: #222;
+	fill: #fff;
 }
 
 .link--asiri .text--transparent {

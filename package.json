@@ -18,5 +18,8 @@
   "homepage": "https://github.com/feliun/bitcoin-challenge#readme",
   "devDependencies": {
     "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
